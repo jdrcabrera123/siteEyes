@@ -20,12 +20,12 @@
 .pageLoaders .spinner {
   width: 50px;
   height: 50px;
-  background-color: blue;
+  background-color: #f90000;
   position: absolute;
   top: 40%;
   left: 45%;
   transform: scale(0);
-  animation: loader 5s infinite ease-in-out;
+  animation: loader 3s infinite ease-in-out;
 }
 .pageLoaders .spinner .spinnerInner {
   height: 40px;
@@ -33,7 +33,7 @@
   margin: 5px;
   border: solid 1px black;
   transform: scale(0);
-  animation: loaderTwo 5s infinite ease-in-out;
+  animation: loaderTwo 3s infinite ease-in-out;
 }
 @keyframes loader {
   0% {
