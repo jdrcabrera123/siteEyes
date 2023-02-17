@@ -77,8 +77,8 @@
  
 }
 .removingLoader{
-  border-radius: 100%;
-  transform: scale(0) ;
+  // border-radius: 50%; 
+ opacity: 0;
 }
 section {
   position: relative;
