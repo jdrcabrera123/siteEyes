@@ -1,3 +1,3 @@
 setTimeout(function(){
-document.querySelector('.pageLoaders').remove()
-}, 3000)
+document.querySelector('.pageLoaders').classList.add('removingLoader')
+},3000)

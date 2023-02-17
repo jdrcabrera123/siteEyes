@@ -16,6 +16,7 @@
   position: absolute;
   background-color: white;
   z-index: 6;
+  transition: 1.5s ease-in-out;
 }
 .pageLoaders .spinner {
   width: 50px;
@@ -68,6 +69,11 @@
   position: relative;
   text-align: center;
   line-height: 100vh;
+}
+
+.removingLoader {
+  border-radius: 100%;
+  transform: scale(0);
 }
 
 section {
