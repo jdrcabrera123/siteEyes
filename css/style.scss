@@ -80,6 +80,10 @@
   // border-radius: 50%; 
  opacity: 0;
 }
+
+.newDisplay{
+  display: none;
+}
 section {
   position: relative;
   width: 100vw;
@@ -92,7 +96,7 @@ section {
     right: 30px;
     width: 46px;
     height: 46px;
-    z-index: 3;
+    z-index: 5;
     cursor: pointer;
     // background-color: #f90000;
     .menu {
